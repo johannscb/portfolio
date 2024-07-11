@@ -1,0 +1,105 @@
+.app__about{
+    height: 80dvh;    
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20% 0;
+    overflow: hidden;
+}
+
+.app__about-title {
+    align-self: flex-start;
+    margin: 1rem;
+    font-size: 50px;
+}
+
+.app__about-content {
+    // margin-top: 10%;
+    width: 80%;
+    font-size: 12px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.app__about-content-links{
+    margin-top: 2rem;
+    display: flex;
+    font-size: 50px;
+    a{
+        color: var(--primary-color);
+    }
+    svg{
+        margin-right: 1rem;
+    }
+}
+
+.app__about-number{
+    position: relative;
+    align-self: flex-end;
+    right: 5%;
+    font-size: 80px;
+    font-weight: 800;
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .app__about{
+        height: 130dvh;  
+    }
+    
+    .app__about-title{
+        font-size: 100px;
+    }
+
+    .app__about-content{
+        font-size: 16px;
+    }
+
+    .app__about-number{
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .app__about{
+        padding-top: 5%;
+    }
+
+    .app__about-title{
+        font-size: 120px;
+    }
+
+    .app__about-content{
+        margin-top: 5%;
+        font-size: 18px;
+    }
+
+    .app__about-number{
+        font-size: 150px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    
+    .app__about-title{
+        margin-left: 10%;
+        font-size: 150px;
+    }
+    
+    .app__about-content{
+        width: 50%;
+    }
+
+    .app__about-number{
+        font-size: 200px;
+    }
+
+    .app__about-box{
+        display: flex;
+    }
+}

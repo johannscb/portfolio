@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap'); */
+
+*{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color: #f0f0f0;
+  --secondary-color: #5647AE;
+  --black-color: #121212;
+  --gray-color: #D1D4DC;
+}
+
