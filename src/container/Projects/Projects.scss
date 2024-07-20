@@ -32,7 +32,7 @@
     align-items: flex-start;
     background-color: white;
     border-radius: 1rem;
-    transition: all ease-in-out 0.5s;
+    // transition: all ease-in-out 0.5s;
 
     margin: -1rem 0;
 
@@ -56,7 +56,7 @@
             width: inherit;
             border-radius: 1rem 1rem 0 0;
             color: transparent;
-            transition: all ease-in-out 0.5s;
+            // transition: all ease-in-out 0.5s;
 
             a{
                 margin: 1rem;
@@ -64,7 +64,7 @@
                 
                 svg{
                     color: transparent;
-                    transition: all ease-in-out 0.5s;
+                    // transition: all ease-in-out 0.5s;
                 }
                 
             }
@@ -114,7 +114,7 @@
                 padding: 0.2rem 0.5rem;
                 border:2px solid var(--gray-color);
                 cursor: pointer;
-                transition: ease-in-out 0.5s;
+                // transition: ease-in-out 0.5s;
 
                 &:hover{
                     color: var(--primary-color);

@@ -11,7 +11,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     z-index: 4;
     background-color: var(--primary-color);
-    transition: all ease-in-out 0.5s;
+    // transition: all ease-in-out 0.5s;
     overflow: hidden;
 
 }
@@ -67,7 +67,7 @@
 }
 
 svg{
-    transition: all ease-in-out 0.5s;
+    // transition: all ease-in-out 0.5s;
 }
 
 .active {
