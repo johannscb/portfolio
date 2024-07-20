@@ -36,7 +36,7 @@ const Contact = () => {
     <div className="app__contact" id='contact'>
         <motion.h1 
           whileInView={{ x: [200, 0]}}
-          transition={{ duration: 1, ease: 'easeInOut' }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }}
           className='app__contact-title'>
             Contact me
         </motion.h1>
@@ -44,28 +44,28 @@ const Contact = () => {
         <div className="app__contact-container">
           <motion.div
             whileInView={{ scale:[1.1, 1] }}
-            transition={{ duration: 0.8, ease: 'easeInOut' }}
+            transition={{ duration: 0.5, ease: 'easeInOut' }}
            className="app__contact-info">
             <div>
               <motion.h3
                 whileInView={{ x: [-200, 0] }}
-                transition={{ duration: 0.7, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >
                 Email</motion.h3>
               <motion.p
                 whileInView={{ x: [-200, 0], scale: [0.7, 1] }}
-                transition={{ duration: 1, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >
                 johannbleza10@gmail.com</motion.p>
             </div>
             <div>
               <motion.h3
                 whileInView={{ x: [-200, 0] }}
-                transition={{ duration: 0.7, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >Phone</motion.h3>
               <motion.p
                 whileInView={{ x: [-200, 0], scale: [0.7, 1] }}
-                transition={{ duration: 1, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >+63 9693286947</motion.p>
             </div>
             <div className='app__contact-links'>
@@ -73,7 +73,7 @@ const Contact = () => {
                 href='https://www.linkedin.com/'
                 target='_blank'
                 whileInView={{ x: [-200, 0], scale: [0.7, 1] }}
-                transition={{ duration: 1, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >
                 <AiFillGithub/>
               </motion.a>
@@ -81,7 +81,7 @@ const Contact = () => {
                 href='https://www.linkedin.com/'
                 target='_blank'
                 whileInView={{ x: [-200, 0], scale: [0.7, 1] }}
-                transition={{ duration: 0.8, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
               >
                 <AiFillLinkedin/>
               </motion.a>
@@ -89,27 +89,27 @@ const Contact = () => {
           </motion.div>
           <motion.form
           whileInView={{ scale:[1.2, 1] }}
-          transition={{ duration: 0.6, ease: 'easeInOut' }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }}
           onSubmit={sendEmail}
           ref={form}
           >
             <motion.input 
               whileInView={{ x: [200, 0] }}
-              transition={{ duration: 0.6, ease: 'easeInOut' }}
+              transition={{ duration: 0.5, ease: 'easeInOut' }}
               type="text" placeholder="Name"
               name="user_name"
               required
               />
             <motion.input 
               whileInView={{ x: [200, 0] }}
-              transition={{ duration: 0.8, ease: 'easeInOut' }}
+              transition={{ duration: 0.5, ease: 'easeInOut' }}
               type="email" placeholder="Email"
               name="user_email"
               required
               />
             <motion.textarea 
               whileInView={{ x: [200, 0] }}
-              transition={{ duration: 1, ease: 'easeInOut' }}
+              transition={{ duration: 0.5, ease: 'easeInOut' }}
               type="text" placeholder="Your message"
               name="message"
               required
