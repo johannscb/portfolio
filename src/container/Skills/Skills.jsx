@@ -82,7 +82,7 @@ const Skills = () => {
     <div className="app__skills" id='skills'>
       <motion.h1 
         whileInView={{x: [-200,0]}}
-        transition={{ duration: 0.5, ease: 'easeInOut' }}
+        transition={{ duration: 1, ease: 'easeInOut' }}
         className="app__skills-title">
         Skills & Experience
       </motion.h1>
@@ -93,7 +93,7 @@ const Skills = () => {
               <motion.img
                 whileInView={{ y: [100, 0], scale:[1.2, 0.9]}}
                 whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                transition={{ duration: 1, ease: 'easeInOut' }}
                 src={skill.img} key={`#${skill}`} alt={`#${skill}`} 
                 title={`${skill.title}`}
                 />
@@ -107,7 +107,7 @@ const Skills = () => {
           <motion.div 
           key={item.title}
           whileInView={{x:[200,0],scale:[0.7,1]}}
-          transition={{duration: 0.5, ease: "easeInOut"}}
+          transition={{duration: 0.7, ease: "easeInOut"}}
           className="app__skills-experience-item">
             <img src={item.logo} alt={item.logo}/>
             <h2>{item.title}</h2>
@@ -122,7 +122,7 @@ const Skills = () => {
       <motion.div
         whileInView={{ y: [200, 0], rotate: [180, 270] }}
         whileHover={{ rotate: 0 }}
-        transition={{ duration: 0.5, ease: 'easeInOut' }}
+        transition={{ duration: 1, ease: 'easeInOut' }}
         className="app__skills-number">
         04
       </motion.div>

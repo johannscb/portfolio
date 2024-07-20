@@ -65,7 +65,7 @@ const Projects = () => {
     <div className="app__projects" id='projects'>
         <motion.h1
         whileInView={{x: [200,0]}}
-        transition={{duration:0.5, ease: easeInOut}}
+        transition={{duration:1, ease: easeInOut}}
         className='app__projects-title'>
           Projects {`(${projectsData.length})`}
         </motion.h1>
@@ -74,7 +74,7 @@ const Projects = () => {
             <motion.div
               key={project.title}
               whileInView={{ y: [100, 0], scale: [0.7, 1] }}
-              transition={{ duration: 0.5, ease: easeInOut }}
+              transition={{ duration: 1, ease: easeInOut }}
               >
               <div className="app__projects-card">
               <div className="app__projects-image-container">
@@ -115,7 +115,7 @@ const Projects = () => {
       <motion.div
         whileInView={{ y: [200, 0], rotate: [180, 270] }}
         whileHover={{ rotate: 0 }}
-        transition={{ duration: 0.5, ease: 'easeInOut' }}
+        transition={{ duration: 1, ease: 'easeInOut' }}
         className="app__projects-number">
         03
       </motion.div>
